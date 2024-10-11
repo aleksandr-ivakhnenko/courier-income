@@ -1,0 +1,19 @@
+.button-back {
+	position: relative;
+	width: 42px;
+	height: 42px;
+	background: none;
+
+	// перенести в reset
+	border: none;
+	padding: 0;
+
+	&__icon {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 25px;
+		height: 25px;
+	}
+}

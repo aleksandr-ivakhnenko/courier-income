@@ -1,0 +1,11 @@
+.header {
+	min-height: 75px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 25px;
+
+	& *:nth-child(1) {
+		flex: 1 1 auto;
+	}
+}
